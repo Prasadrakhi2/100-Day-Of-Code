@@ -22,7 +22,7 @@ public class StaticKeywords{
         Mobile obj1 = new Mobile();
         obj1.name = "apple";
         obj1.price = 1500;
-        obj1.product = "phone";
+        Mobile.product = "phone";
 
         Mobile obj2 = new Mobile();
         obj2.name = "samsung";
