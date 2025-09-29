@@ -1,22 +1,20 @@
 class Student{
     private int age;
     private String name;
-
-    public void setAge(int a){
-        age = a;
-    }
-
-    public int getAge(){
+    public int getAge() {
         return age;
     }
-
-    public void setName(String n){
-        name = n;
+    public void setAge(int age) {
+        this.age = age;
     }
-
-    public String getName(){
+    public String getName() {
         return name;
     }
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    
 }
 
 public class Encapsulation{
