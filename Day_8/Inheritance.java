@@ -6,6 +6,7 @@ public class Inheritance{
         int r3 = obj.mull(8, 6);
         int r4 = obj.div(8, 6);
         double r5 = obj.power(2, 3);
+        // obj.show();
         System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
     }
 }
