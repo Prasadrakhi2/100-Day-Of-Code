@@ -5,6 +5,7 @@ interface A{
      void config();
 }
 
+
 interface C{
     void singing();
 }
