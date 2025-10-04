@@ -23,9 +23,12 @@ class B implements A,C{
 
 public class Demo{
     public static void main(String[] args) {
-        B obj = new B();
+        A obj = new B();
         obj.show();
         obj.config();
-        obj.singing();
+        B obj1 = new B();
+        obj1.singing();
+        int num = obj.a;
+        System.out.println(num);
     }
 }
