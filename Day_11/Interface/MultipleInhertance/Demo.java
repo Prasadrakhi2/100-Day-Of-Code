@@ -28,7 +28,7 @@ public class Demo{
         obj.config();
         B obj1 = new B();
         obj1.singing();
-        int num = obj.a;
+        int num = A.a;
         System.out.println(num);
     }
 }
